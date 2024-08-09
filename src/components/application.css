@@ -1,0 +1,50 @@
+/* src/components/application.css */
+.application-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightsalmon;
+  }
+  
+  .application-card {
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .application-header {
+    text-align: center;
+    font-size: 4rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+  }
+  
+  .application-input {
+    font-size: 2rem;
+  }
+  
+  .application-button {
+    font-size: 1.2rem;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .application-button:hover {
+    background-color: #e5533f;
+  }
+  
+  .application-success {
+    text-align: center;
+    font-size: 2rem;
+    color: #28a745;
+  }
+  
